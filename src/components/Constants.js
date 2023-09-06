@@ -1,0 +1,21 @@
+export const calculator = [
+  { id: "CE", display: "CE", type: "clear" },
+  { id: "C", display: "C", type: "clear" },
+  { id: "backclear", display: "<--", type: "clear" },
+  { id: "mul", display: "÷", value: "/", type: "arithmetic" },
+  { id: "7", display: "7", value: "7", type: "number" },
+  { id: "8", display: "8", value: "8", type: "number" },
+  { id: "9", display: "9", value: "9", type: "number" },
+  { id: "mul", display: "X", value: "*", type: "arithmetic" },
+  { id: "4", display: "4", value: "4", type: "number" },
+  { id: "5", display: "5", value: "5", type: "number" },
+  { id: "6", display: "6", value: "6", type: "number" },
+  { id: "minus", display: "-", value: "-", type: "arithmetic" },
+  { id: "1", display: "1", value: "1", type: "number" },
+  { id: "2", display: "2", value: "2", type: "number" },
+  { id: "3", display: "3", value: "3", type: "number" },
+  { id: "plus", display: "+", value: "+", type: "arithmetic" },
+  { id: "0", display: "0", value: "0", type: "number" },
+  { id: "dot", display: ".", value: ".", type: "number" },
+  { id: "equal", display: "=", value: "=", type: "arithmetic" }
+];
