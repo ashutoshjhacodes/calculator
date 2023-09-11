@@ -1,15 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-function History() {
-  const [history, setHistory] = useState([]);
-  useEffect(() => {
-    try {
-      setHistory(JSON.parse(localStorage.getItem("history")));
-    } catch (error) {
-      console.error("errror::", error);
-    }
-  }, []);
-  console.log(history);
+function History(props) {
+  const  {history} = props;
+
   return (
     <div className="history">
       <h2>Past Records or History </h2>
@@ -23,5 +16,4 @@ function History() {
     </div>
   );
 }
-
 export default History;
